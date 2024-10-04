@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Familia P. Luche</title>
+
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9; /* Color suave de fondo */
+            color: rgb(77, 105, 137);
+            line-height: 1.6;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: #96b5c6; 
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Estilos de navegación */
+        nav {
+            background-color: #6c88b0;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0c0079; /* Color del título */
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        
+
+        /* Árbol genealógico */
+        .arbol {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .arbol img {
+            width: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .familia {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .familia h4 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .conectar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20px;
+        }
+
+        .linea {
+            width: 200px;
+            height: 2px;
+            background-color: #6c88b0;
+        }
+
+        /* Estilos para el álbum de fotos */
+        .album img {
+            width: 150px;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .album {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>La Familia P. Luche</h1>
+    </header>
+
+    <nav>
+        <a href="#arbol">Árbol genealógico</a>
+        <a href="#historia">Historia de la familia</a>
+        <a href="#album">Álbum de fotos</a>
+    </nav>
+   
+    <section id="arbol">
+        <h2>Árbol genalógico</h2>
+        <div class="arbol">
+            <!-- Primera generación -->
+            <div class="familia">
+                <div>
+                    <img src="https://nelsonrivas.wordpress.com/wp-content/uploads/2011/04/familia-peluche.jpg?w=584" alt="Ludovico P. Luche">
+                    <h4>Ludovico P. Luche</h4>
+                </div>
+                <div>
+                    <img src="https://assets.tvnotas.com.mx/dims4/default/3140b44/2147483647/strip/true/crop/1080x1080+0+0/resize/1440x1440!/quality/90/?url=https%3A%2F%2Fk3-prod-tvnotas.s3.us-west-2.amazonaws.com%2Fbrightspot%2F8c%2F89%2F21cb0c914f02a3dd097ee9432cc4%2Fconsueloduvalentvazteca.jpg" alt="Federica P. Luche">
+                    <h4>Federica P. Luche</h4>
+                </div>
+            </div>
+
+            <!-- Conexión entre padres e hijos -->
+            <div class="conectar">
+                <div class="linea"></div>
+            </div>
+
+            <!-- Segunda generación -->
+            <div class="familia">
+                <div>
+                    <img src="https://pbs.twimg.com/media/CEa97bjWgAAGqGI.png" alt="Ludoviquito P. Luche">
+                    <h4>Ludoviquito P. Luche</h4>
+                </div>
+                <div>
+                    <img src="https://www.publimetro.com.mx/resizer/v2/MWL2JMQFIZBNNKBXHSVU7ARAIM.jpg?auth=f592166488eb47564e6adc397c25a11dbad28c15d41b208988ac597cc4e9fdb0&width=1200&height=900&smart=true" alt="Júnior P. Luche">
+                    <h4>Júnior P. Luche</h4>
+                </div>
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5ZR9Bk33hBjFYuWGvpnIDU99eO9LwMgRbnA&s alt="Bibi P. Luche">
+                    <h4>Bibi P. Luche</h4>
+                </div>
+            </div>
+            
+            <!-- Conexión para Excelsa -->
+            <div class="conectar">
+                <div class="linea"></div>
+            </div>
+
+            <!-- Excelsa -->
+            <div class="familia">
+                <div>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeszPT-0XDxzH4R_n1L0RrSOMBvr6dWSI1fQ&s" alt="Excelsa">
+                    <h4>Excelsa</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="historia">
+        <h2>Historia de la familia</h2>
+        <p>La familia está integrada por Federica, una mujer superficial que está a cargo del control de la casa; Ludovico, un esposo torpe y crédulo que se limita a escuchar las órdenes de su esposa; Ludoviquito, el hijo menor que siempre sabe cómo sacar provecho de los demás; Júnior, un segundo hijo que era un policía hasta que Federica lo atropelló, para evitar ser encarcelados Ludovico y Federica le dicen que es un niño y que es adoptado; Bibi quien es la hija mayor se la considera una niña "rara"; y Excelsa, una sirvienta perezosa proveniente de Argentina.</p>
+    </section>
+
+    <section id="album">
+        <h2>Álbum de fotos</h2>
+        <div class="album">
+            <img src="https://static.tvtropes.org/pmwiki/pub/images/familia_pluche.jpg">
+            <img src="https://www.lavozdemichoacan.com.mx/wp-content/uploads/2022/08/familia-peluche.jpg">
+            <img src="https://images.vix.com/prd/videos/video:mcp:4530708/9b227860065981ed93bbef3b9775ee30?tr=w-1920,q-80&w=1920">
+            <img src="https://www.sdpnoticias.com/resizer/v2/TZDUPYVP4NFMDFAZOGAU7GHQDM.png?smart=true&auth=a05df80fe5d06698172c2a9784fc565f7a5b30ff72a7a5e5e9b50f6450c00aef&width=640&height=360">
+        </div>
+    </section> 
+
+  
+
+</body>
+</html>
